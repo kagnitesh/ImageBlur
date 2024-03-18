@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 extension UIImageView{
     func getImageViewAspectHeight(_ width:CGFloat = UIScreen.main.bounds.width ,maxHeight:CGFloat = UIScreen.main.bounds.height) -> CGFloat{
         

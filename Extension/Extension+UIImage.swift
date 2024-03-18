@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 extension UIImage{
     func imageWithGaussianBlur9() -> UIImage? {
         let weight = [0.1270270270, 0.1945945946, 0.1216216216, 0.0540540541, 0.0162162162]
